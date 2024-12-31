@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1> Aria Accessibility</h1>
+<h2> What is it and what its purpose?</h2>
+<p> What is Aria? Aria is an attribute that we use so forms are accessable. What is the purpose? To ensure the users with disabilities can navigate easier.</p>
+<nav role="navigation bar"></nav>
+<form role="form">
+<label for="firstname" id="firstnamelabel">First Name</label>
+<input name="FirstName" id="firstname" aria-labelledby="First Name-label" type="text" aria-required="true">
+
+<br><br>
+<label for="Email" id="emaillabel">Email</label>
+<input name="Email" id="email" aria-labelledby="email-label" type="email" aria-required="true">
+<br><br>
+<button type="submit" aria-label="Send in the information">Send information</button>
+<button role="submit to see a video">See video</button>
+
+</form>
+</body>
+</html>
